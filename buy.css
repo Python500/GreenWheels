@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---Navigation-----*/
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-brand span h1 {
+    color: #efefef;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff!important;
+}
+
+.navbar {
+    background: #01DF01;
+}
+
+.navbar-toggler {
+    border: none!important;
+    ;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/group-fresh-red-tomatoes.jpg);
+    background-size: cover;
+    color: #efefef!important;
+    margin: 15px;
+}
+
+.product-pic .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+    padding: 20px;
+}
+
+.product-pic .img-box img {
+    filter: grayscale(1);
+}
+
+.product-pic .img-box img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.img-box ul {
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li {
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box:hover ul {
+    opacity: 1;
+}
+
+.img-box ul,
+.img-box li {
+    transition: 0.5s;
+}
