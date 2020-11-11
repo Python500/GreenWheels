@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar .navbar-brand h3 {
+    color: #29c229;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.navbar-nav li {
+    margin: 0 10px;
+    float: right;
+    text-align: center;
+    margin-right: 70px;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: #2D3748!important;
+    font-size: 14px;
+}
+
+#nav-bar ul li a:hover {
+    color: #29c229!important;
+}
+
+
+/*-----Slider------*/
+
+#slider {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+
+
+/*------About----------*/
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/*------services----------*/
+
+#services {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#services h3,
+#services p {
+    color: #2D3748!important;
+}
+
+#services h1 {
+    text-align: center;
+    color: #2D3748!important;
+    padding-bottom: 10px;
+}
+
+#services h1::after {
+    content: '';
+    background: #2D3748;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.services .col-md-4:hover {
+    background: #01DF01;
+    cursor: pointer;
+    transition: 0.7s;
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 50%;
+    ;
+}
+
+
+/*------our team----------*/
+
+#team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #2D3748;
+}
+
+#team h1 {
+    text-align: center;
+    color: #2d3748!important;
+    padding-bottom: 10px;
+}
+
+#team h1::after {
+    content: '';
+    background: #2D3748;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.profile-pic {
+    margin-top: 40px;
+}
+
+.profile-pic .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img {
+    filter: grayscale(1);
+    padding: 50px;
+    transition: transform .2s;
+    /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.profile-pic .img-box img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.profile-pic h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #2d3748!important;
+}
+
+.profile-pic h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #2D3748!important;
+}
+
+#team .fab {
+    height: 25px;
+    width: 25px;
+    color: #007bff!important;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul {
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-60%);
+    opacity: 0;
+}
+
+.img-box ul li {
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box:hover ul {
+    opacity: 1;
+}
+
+.img-box ul,
+.img-box li {
+    transition: 0.5s;
+}
+
+
+/*-----contact info*/
+
+#contact {
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+#contact a {
+    color: #2D3748;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600px;
+}
+
+#contact .btn:hover {
+    color: #29c229;
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 0!important;
+    border: none!important;
+}
+
+::placeholder {
+    color: #999!important;
+}
+
+.follow a:hover {
+    color: #01DF01!important;
+    cursor: pointer;
+}
+
+.follow i {
+    font-size: 100%;
+    padding-top: 20px;
+    margin: 15px;
+}
+
+.follow .fas {
+    margin: 10px;
+    color: #007bff;
+}
+
+.profile img {
+    border-radius: 50%;
+}
